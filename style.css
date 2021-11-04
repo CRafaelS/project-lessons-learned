@@ -8,37 +8,45 @@ header {
 }
 
 #minha_foto {
-    width: 200px;
-    border: 3px solid blue;
+  width: 200px;
+  border: 3px solid blue;
 }
-#licoes_aprendidas{
-    color: green;
+
+#licoes_aprendidas {
+  color: green;
 }
-#licoes_a_aprender{
-    color: red;
+
+#licoes_a_aprender {
+  color: red;
 }
+
 h2 {
-    text-align: center;
-    padding: 50px;
+  text-align: center;
+  padding: 50px;
 }
-/** Para fazer o espaçamento entre as linhas eu utilizei o line-height, e eu encontrei este comando no seguinte site:
+
+/** Para fazer o espaçamento entre as linhas
+ eu utilizei o line-height,encontrei no seguinte site
 https://www.maujor.com/tutorial/propriedade-css-line-height.php */
+
 p {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 4px;
-    line-height: 20px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 4px;
+  line-height: 20px;
 }
+
 .lado-esquerdo {
-    display: inline-block;
-    margin-left: 2px;
-    width: 500px;
-    top: 180px;
+  display: inline-block;
+  margin-left: 2px;
+  width: 500px;
+  top: 180px;
 }
+
 .lado-direito {
-    display: inline-block;
-    position: absolute;
-    margin-left: 600px;
-    width: 400px;
-    top: 180px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 600px;
+  width: 400px;
+  top: 180px;
 }
