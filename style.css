@@ -19,7 +19,7 @@ header {
 }
 h2 {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 /** Para fazer o espaçamento entre as linhas eu utilizei o line-height, e eu encontrei este comando no seguinte site:
 https://www.maujor.com/tutorial/propriedade-css-line-height.php */
@@ -28,4 +28,14 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 4px;
     line-height: 20px;
+}
+.lado-esquerdo {
+    margin-left: 2px;
+    width: 500px;
+}
+.lado-direito {
+    position: absolute;
+    margin-left: 600px;
+    width: 400px;
+    top: 180px;
 }
